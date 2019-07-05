@@ -48,14 +48,16 @@ header {
 	font-weight: bold;
 }
 
-#welcome-image {
+#welcome-image img {
 	float: left;
-	width: 10%;
+	width: 40%;
+
 }
 
-#product-of-the-month {
+#product-of-the-month img {
 	float: right;
-	width: 10%;
+	width: 40%;
+	margin-right: 10%;
 }
 
 .clearfix:after {
