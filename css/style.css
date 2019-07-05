@@ -10,3 +10,7 @@ body {
 	margin-left: auto;
 	font-family: Verdana;
 }
+
+header {
+	font-weight: bold;
+}
