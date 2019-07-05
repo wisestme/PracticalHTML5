@@ -52,3 +52,14 @@ header {
 	float: left;
 	width: 10%;
 }
+
+#product-of-the-month {
+	float: right;
+	width: 10%;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
