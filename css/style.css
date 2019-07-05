@@ -37,3 +37,9 @@ header {
 	margin: 10px;
 	width: 40%;
 }
+
+#header-text {
+	color: #fff;
+	position: relative;
+	top: 15vh;
+}
