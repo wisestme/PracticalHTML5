@@ -30,3 +30,10 @@ header {
 	height: 25vh;
 	background-color: #111a39;
 }
+
+.search-box {
+	float: right;
+	padding: 4px;
+	margin: 10px;
+	width: 40%;
+}
