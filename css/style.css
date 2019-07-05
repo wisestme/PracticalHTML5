@@ -19,3 +19,7 @@ header {
 	float: left;
 	margin-right: 10px;
 }
+
+.headerlogo img {
+	border-radius: 50%;
+}
