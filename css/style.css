@@ -25,3 +25,8 @@ header {
 .headerlogo img {
 	border-radius: 50%;
 }
+
+#main-header {
+	height: 25vh;
+	background-color: #111a39;
+}
