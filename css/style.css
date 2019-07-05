@@ -16,6 +16,8 @@ header {
 }
 
 .headerlogo {
+	position: relative;
+	top: 10px;
 	float: left;
 	margin-right: 10px;
 }
