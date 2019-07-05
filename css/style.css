@@ -49,15 +49,20 @@ header {
 }
 
 #welcome-image img {
+	position: relative;
 	float: left;
 	width: 40%;
-
+	top: 1.5em;
+	margin-bottom: 3.5em;
 }
 
 #product-of-the-month img {
 	float: right;
 	width: 40%;
 	margin-right: 10%;
+	position: relative;
+	top: 1.5em;
+	margin-bottom: 3.5em;
 }
 
 .clearfix:after {
