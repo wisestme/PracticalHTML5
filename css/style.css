@@ -27,6 +27,7 @@ header {
 }
 
 #main-header {
+	margin-top: 0.2em;
 	height: 25vh;
 	background-color: #111a39;
 }
