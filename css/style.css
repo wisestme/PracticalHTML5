@@ -114,3 +114,9 @@ header {
 	margin: 0 auto;
 	max-width: 800px;
 }
+
+#collections {
+	width: 98%;
+	margin-bottom: 1.5em auto;
+	padding: 1em;
+}
