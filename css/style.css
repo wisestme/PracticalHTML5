@@ -120,3 +120,8 @@ header {
 	margin-bottom: 1.5em auto;
 	padding: 1em;
 }
+
+#collections header {
+	width: 90%;
+	text-align: center;;
+}
