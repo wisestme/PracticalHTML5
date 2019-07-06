@@ -117,11 +117,18 @@ header {
 
 #collections {
 	width: 98%;
-	margin-bottom: 1.5em auto;
+	margin-bottom: 1.5em;
 	padding: 1em;
+	color: #111a39;
+}
+
+#collections > header {
+	font-size: larger;
+
 }
 
 #collections header {
 	width: 90%;
-	text-align: center;;
+	text-align: center;
+	margin-bottom: 0.5em;
 }
