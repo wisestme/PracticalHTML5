@@ -100,3 +100,17 @@ header {
 	font-weight: bold;
 	margin-bottom: 0.5em;
 }
+
+#updates > ul {
+	list-style: none;
+}
+
+#updates li {
+	margin-bottom: 0.4em;
+}
+
+#welcome_update {
+	width: 98%;
+	margin: 0 auto;
+	max-width: 800px;
+}
