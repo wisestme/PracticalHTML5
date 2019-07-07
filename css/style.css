@@ -167,10 +167,10 @@ footer {
 
 nav {
 	width: 98%;
-	border: 2px solid #fff;
 	color: #fff;
 	position: relative;
-	top: 17vh;
+	bottom: 1vh;
+	left: 7.5em;
 }
 
 
@@ -182,6 +182,5 @@ nav li {
 
 nav ul {
 	width: 100%;
-	border: 2px solid red;
 	padding: 0;
 }
