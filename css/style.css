@@ -209,3 +209,7 @@ img[src^="images/all"] {
 img[src$="ars.jpg"] {
 	border-right-color: #46a7de;
 }
+
+img[src*="stars"] {
+	border-width: 2px 4px;
+}
