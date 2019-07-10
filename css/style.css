@@ -239,3 +239,9 @@ img[src*="stars"] {
 	border-radius: 1em;
 	box-shadow: 2px 2px 5px #000;
 }
+
+.add-button:hover {
+	background-color: #336280;
+	border-color: #111a39;
+	box-shadow: 4px 4px 8px #000;
+}
