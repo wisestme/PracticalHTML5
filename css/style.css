@@ -204,3 +204,8 @@ footer {
 img[src^="images/all"] {
 	border-left-color: #46a7de;
 }
+
+
+img[src$="ars.jpg"] {
+	border-right-color: #46a7de;
+}
