@@ -29,7 +29,7 @@ header {
 #main-header {
 	margin-top: 0.2em;
 	height: 25vh;
-	background-color: #111a39;
+	background: linear-gradient(to top right, #111a39, #336280);
 }
 
 .search-box {
