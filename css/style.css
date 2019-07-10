@@ -150,6 +150,7 @@ nav a {
 
 #collections > header {
 	font-size: larger;
+	text-shadow: 5px 5px 5px #000;
 
 }
 
