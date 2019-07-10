@@ -224,3 +224,16 @@ img[src*="stars"] {
 	75% {border-top: 2px solid brown;}
 	100% {border-top: 2px solid yellow;}
 }
+
+
+.add-button {
+	margin-right: auto;
+	margin-left: auto;
+	cursor: pointer;
+	padding: 0.2em 0.4em;
+	background: #111a39;
+	border: 2px solid #336280;
+	color: #fff;
+	width: 20%;
+	border-radius: 1em;
+}
