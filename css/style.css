@@ -212,5 +212,5 @@ img[src$="ars.jpg"] {
 
 img[src*="stars"] {
 	border-width: 2px 4px;
-	transform: rotate(15deg);
+	transform: skew(5deg, 8deg);
 }
