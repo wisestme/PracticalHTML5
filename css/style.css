@@ -245,3 +245,8 @@ img[src*="stars"] {
 	border-color: #111a39;
 	box-shadow: 4px 4px 8px #000;
 }
+
+@font-face {
+	font-family: headerfont;
+	src: url('fonts/Hunting.otf');
+}
