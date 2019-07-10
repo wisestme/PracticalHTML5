@@ -213,4 +213,13 @@ img[src$="ars.jpg"] {
 img[src*="stars"] {
 	border-width: 2px 4px;
 	transform: skew(5deg, 8deg);
+	animation: borderAnimation 10s
+}
+
+@keyframes borderAnimation{
+	0% {border-top: 2px solid green;}
+	25% {border-top: 2px solid red;}
+	50% {border-top: 2px solid blue;}
+	75% {border-top: 2px solid brown;}
+	100% {border-top: 2px solid yellow;}
 }
