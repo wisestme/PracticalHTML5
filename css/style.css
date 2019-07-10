@@ -230,10 +230,12 @@ img[src*="stars"] {
 	margin-right: auto;
 	margin-left: auto;
 	cursor: pointer;
-	padding: 0.2em 0.4em;
+	padding: 0.2em 0.2em;
 	background: #111a39;
 	border: 2px solid #336280;
 	color: #fff;
+	font-size: 0.8em;
 	width: 20%;
 	border-radius: 1em;
+	box-shadow: 2px 2px 5px #000;
 }
