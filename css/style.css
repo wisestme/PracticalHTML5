@@ -110,6 +110,10 @@ nav a {
 	max-width: 500px;
 }
 
+/*.welcome-msg {
+	column-count: 2;
+}*/
+
 #welcome-text > header {
 	color: #111a39;
 	font-size: larger;
