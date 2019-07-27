@@ -1,7 +1,8 @@
-/*function addDnDHandlers() {
-	
-}*/
+function addDnDHandlers() {
+	let productImages = document.querySelectorAll('product-article');
+	let shoppingCartDropZone = document.querySelectorAll('.blockheader');
 
-let productImages = document.querySelectorAll('product-article');
-	let shoppingCartDropZone = document.querySelectorAll('.shopping-cart');
+
 console.log(shoppingCartDropZone);
+}
+
