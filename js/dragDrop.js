@@ -29,6 +29,14 @@ function addDnDHandlers() {
 
 		return false;
 	}, false);
+
+	function addProduct(item, id) {
+		let html = id + " " + item.getAttribute("product-price");
+
+		let liElement = document.createElement('li');
+		liElement.innerHTML = html;
+		shoppingCart.appendChild(liElement);
+	}
 //console.log(shoppingCart);
 }
 
