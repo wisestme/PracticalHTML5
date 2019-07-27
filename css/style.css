@@ -199,6 +199,11 @@ article header {
 	margin-bottom: 2em;
 }
 
+.designers {
+	width: 80%;
+	float: left;
+}
+
 footer {
 	clear: both;
 	width: 100%;
