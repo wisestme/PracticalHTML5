@@ -1,3 +1,3 @@
 function addDnDHandlers() {
-	//let productImages = document.querySelectorAll('.product-article');
+	let productImages = document.querySelectorAll('.product-article');
 }
