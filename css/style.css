@@ -28,7 +28,7 @@ header {
 
 #main-header {
 	margin-top: 0.2em;
-	height: 28vh;
+	height: 32vh;
 	background: linear-gradient(to top right, #111a39, #336280);
 }
 
@@ -50,7 +50,6 @@ header {
 }
 
 nav {
-	border: 2px solid red;
 	width: 68%;
 	color: #fff;
 	position: relative;
