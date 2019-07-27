@@ -16,6 +16,19 @@ function addDnDHandlers() {
 		e.dataTransfer.dropEffect = "copy";
 		return false;
 	}, false);
+
+	shoppingCartDropZone.addEventListener("drop", function(e) {
+		if (e.stopPropagation)
+			e.stopPropagation();
+
+		let productId = e.dataTransfer.getData("Text");
+		let element document.getElementById(productId);
+
+		addProduct(element, productId);
+		ev.stopPropagation();
+
+		return false;
+	}, false);
 //console.log(shoppingCart);
 }
 
