@@ -204,6 +204,11 @@ article header {
 	float: left;
 }
 
+.shopping-cart {
+	width: 20%;
+	
+}
+
 footer {
 	clear: both;
 	width: 100%;
