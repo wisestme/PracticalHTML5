@@ -1,6 +1,7 @@
-function addDnDHandlers() {
-	let productImages = document.querySelectorAll('.product-article');
-	let shoppingCartDropZone =document.querySelector('#shopping-cart');
-}
+/*function addDnDHandlers() {
+	
+}*/
 
-console.log(productImages);
+let productImages = document.querySelectorAll('product-article');
+	let shoppingCartDropZone = document.querySelectorAll('.shopping-cart');
+console.log(shoppingCartDropZone);
