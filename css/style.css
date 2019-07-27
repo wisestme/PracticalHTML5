@@ -50,7 +50,8 @@ header {
 }
 
 nav {
-	width: 98%;
+	border: 2px solid red;
+	width: 68%;
 	color: #fff;
 	position: relative;
 	bottom: 2vh;
