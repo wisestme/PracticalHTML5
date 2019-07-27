@@ -1,8 +1,9 @@
 function addDnDHandlers() {
-	let productImages = document.querySelectorAll('product-article');
-	let shoppingCartDropZone = document.querySelectorAll('.blockheader');
+	
+}
+
+let productImages = document.querySelectorAll('product-article');
+	let shoppingCartDropZone = document.querySelectorAll('#shopper');
 
 
 console.log(shoppingCartDropZone);
-}
-
