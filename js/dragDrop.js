@@ -7,8 +7,15 @@ function addDnDHandlers() {
 		productImages[i].addEventListener("dragstart", function(e) {
 			e.dataTransfer.effectAllowed = 'copy';
 			e.dataTransfer.setData("Text", this.getAttribute("id"));
-		}, false)
+		}, false);
 	}
+
+	shoppingCartDropZone.addEventListener("dragover", function(e) {
+		if(e.preventDefault)
+			e.preventDefault();
+		e.dataTransfer.dropEffect = "copy";
+		return false;
+	}, false);
 //console.log(shoppingCart);
 }
 
