@@ -200,13 +200,13 @@ article header {
 }
 
 .designers {
-	width: 80%;
+	width: 60%;
 	float: left;
 }
 
 .shopping-cart {
-	width: 20%;
-	
+	width: 40%;
+	float: left
 }
 
 footer {
