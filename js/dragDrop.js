@@ -1,8 +1,8 @@
 function addDnDHandlers() {
 	let productImages = document.querySelectorAll('.product-article');
-	let shoppingCartDropZone = document.querySelectorAll('#shopper');
-	let shoppingCart = document.querySelectorAll("#shopper ul");
-
+	let shoppingCartDropZone = document.querySelector('#shopper');
+	let shoppingCart = document.querySelector("#shopper ul");
+console.log(shoppingCart);
 	for(let i = 0; i < productImages.length; i++) {
 		productImages[i].addEventListener("dragstart", function(e) {
 			e.dataTransfer.effectAllowed = 'copy';
@@ -17,27 +17,32 @@ function addDnDHandlers() {
 		return false;
 	}, false);
 
+	
+
 	shoppingCartDropZone.addEventListener("drop", function(e) {
 		if (e.stopPropagation)
 			e.stopPropagation();
 
 		let productId = e.dataTransfer.getData("Text");
-		let element document.getElementById(productId);
+		let element = document.getElementById(productId);
 
 		addProduct(element, productId);
-		ev.stopPropagation();
+		e.stopPropagation();
 
 		return false;
 	}, false);
 
 	function addProduct(item, id) {
-		let html = id + " " + item.getAttribute("product-price");
+		let html = id + " " + item.getAttribute("data-price");
 
 		let liElement = document.createElement('li');
 		liElement.innerHTML = html;
 		shoppingCart.appendChild(liElement);
 	}
-//console.log(shoppingCart);
+	
+console.log(shoppingCartDropZone);
 }
 
-//addDnDHandlers()
+addDnDHandlers()
+
+//let shoppingCartDropZone = document.querySelectorAll('#shopper');

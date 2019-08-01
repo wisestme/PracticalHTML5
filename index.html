@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Creamchic Fashion</title>
 	<link rel="stylesheet" href="css/style.css">
-  <script src="js/dragDrop.js"></script>
+  
 </head>
 <body>
 	<header id="main-header">
@@ -73,9 +73,9 @@
 		<section class="designers">
 			<header>Designers</header>
 
-			<article class="product-details" id="product-1">
+			<article class="product-details" id="product-1" data-price="5000">
 				<figure>
-					<img src="images/netty.jpg" alt="white- crochet bag" class="product-thumbnail product-article" id="product1">
+					<img src="images/netty.jpg" alt="white- crochet bag" class="product-thumbnail product-article" id="product1" draggable="true">
 				</figure>
 
 				<header>
@@ -170,7 +170,7 @@
 			</article>
 		</section>
     <div id="shopper">
-      <header class="blockheader"><span>Cart</span></header>
+      <header class="blockheader"><span >Cart</span></header>
       <ul>
         
       </ul>
@@ -184,6 +184,14 @@
 		<p>This page was generated on <time>04:30:15.123</time></p>
 	</footer>
 
-	<script src="js/app.js"></script>
+
+
+	<!-- <script src="js/app.js"></script> -->
+  <script src="js/dragDrop.js"></script>
+  
+  <!-- <script>
+    document.addEventListener("DOMContentLoaded", addDnDHandlers, false);
+  </script> -->
+  
 </body>
 </html>
