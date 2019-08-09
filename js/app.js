@@ -33,3 +33,13 @@ console.log(newArr);
 let carIDs = [2, 7, 8, 10];
 [carA, carB, carC, carD] = carIDs;
 console.log(carA);
+
+let phone = {
+	brand: 'Samsung',
+	model: 'Note 10',
+	nairaPrice: 300,
+};
+
+let brand,model;
+({brand, model} = phone);
+console.log(model);
