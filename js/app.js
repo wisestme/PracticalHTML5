@@ -29,3 +29,7 @@ const checkArr = [5, 7, 9, 8];
 
 const newArr  = [67, ...checkArr];
 console.log(newArr);
+
+let carIDs = [2, 7, 8, 10];
+[carA, carB, carC, carD] = carIDs;
+console.log(carA);
