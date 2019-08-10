@@ -17,8 +17,9 @@ function startCar(carId){
 startCar(123);
 //console.log(message);
 
+let message = "Outside";
 if(5 === 5) {
 	let message = 'Equal';
-	//console.log(message);
+	console.log(message);
 }
 console.log(message);
