@@ -8,8 +8,9 @@ function startCar(carId){
 	let message = "Starting...";
 
 	let startFn = function turnKey(){
-		console.log(message);
+		let message = "Override";
 	}
+	console.log(message);
 	startFn();
 }
 
