@@ -4,9 +4,14 @@ cartAdd.onclick = function () {
 	alert('item added to your cart');
 }
 
-function startCar(){
-	let message = "Starting..."
+function startCar(carId){
+	let message = "Starting...";
+
+	let startFn = function turnKey(){
+		console.log(message);
+	}
+	startFn();
 }
 
-startCar();
-console.log(message);
+startCar(123);
+//console.log(message);
