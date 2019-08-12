@@ -14,3 +14,10 @@ let app = (function() {
 	};
 })();
 console.log(app.getId());
+
+let theReturn = function() {
+	let vari = 'an string';
+	return vari;
+}
+
+console.log(theReturn());
