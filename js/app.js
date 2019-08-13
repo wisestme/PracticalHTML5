@@ -16,3 +16,10 @@ let benz = {
 }
 console.log(benz.getId());
 
+let newCar = {carId: 'V-boot'};
+let eClass = {carId: 'E-Class'}
+
+console.log(benz.getId.call(eClass));
+
+console.log(benz.getId.call(newCar));
+
