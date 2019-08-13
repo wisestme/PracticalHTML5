@@ -21,4 +21,4 @@ let nokiaActive = {
 }
 
 let caller = phone.myPhone;
-console.log(caller.call(nokiaActive, 'white', 'Nigerian'));
+console.log(caller.apply(nokiaActive, ['white', 'Nigerian']));
