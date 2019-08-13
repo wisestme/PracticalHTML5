@@ -5,8 +5,8 @@ cartAdd.onclick = function () {
 };
 
 let phone = {
-	myPhone: function(nationality) {
-		return 'I use a ' + nationality + ' made ' + this.name + ' ' + this.model + ' phone';
+	myPhone: function(color, nationality) {
+		return 'I use a ' + color + ' ' + nationality + ' made ' + this.name + ' ' + this.model + ' phone';
 	},
 }
 
@@ -21,4 +21,4 @@ let nokiaActive = {
 }
 
 let caller = phone.myPhone;
-console.log(caller.call(nokiaActive, 'Nigerian'));
+console.log(caller.call(nokiaActive, 'white', 'Nigerian'));
