@@ -33,6 +33,6 @@ var module = {
 var unboundGetX = module.getX;
 console.log(unboundGetX.bind(module)());
 
-let arrow = () => 123;
+let arrow = (luckyNumber) => luckyNumber + 123;
 
-console.log(arrow());
+console.log(arrow('Lucky Number: '));
