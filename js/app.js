@@ -9,4 +9,4 @@ let trackCar = (carId, city='Aba') => {
 	console.log(output);
 }
 
-trackCar('Rols Royce');
+trackCar('Rols Royce', 'Lagos');
