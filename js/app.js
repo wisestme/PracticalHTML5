@@ -32,3 +32,7 @@ var module = {
 
 var unboundGetX = module.getX;
 console.log(unboundGetX.bind(module)());
+
+let arrow = () => 123;
+
+console.log(arrow());
