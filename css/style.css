@@ -50,11 +50,11 @@ header {
 }
 
 nav {
-	width: 68%;
+	width: 92%;
 	color: #fff;
 	position: relative;
-	bottom: 2vh;
-	left: 7.5em;
+	bottom: 3.5vh;
+	left: 2em;
 	font-family: navfont;
 	letter-spacing: 2px;
 	font-size: larger;
