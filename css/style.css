@@ -101,11 +101,15 @@ nav a {
 	clear: both;
 }
 
+#welcome_update {
+	width: 98%;
+}
+
 #welcome-text {
-	float: left;
-	width: 70%;
+	display: table;
+	width: 76%;
 	font-size: large;
-	margin: 1.5em 0.5em;
+	margin: 1.5em auto;
 	padding: 0.5em;
 	max-width: 500px;
 }
@@ -120,6 +124,8 @@ nav a {
 	font-size: larger;
 	font-weight: bold;
 	margin-bottom: 0.5em;
+	text-align: center;
+	left: auto;
 }
 
 #updates {
