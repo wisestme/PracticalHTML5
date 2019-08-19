@@ -6,10 +6,12 @@ cartAdd.onclick = function () {
 
 function Car(model) {
 	this.model = model;
-	this.startEngine = function () {
+	
+}
+
+Car.prototype.startEngine = function () {
 		console.log(`Starting ${this.model} engine sound`);
 	}
-}
 
 let benz = new Car("G-Wagon");
 console.log(benz.model);
