@@ -7,7 +7,7 @@ cartAdd.onclick = function () {
 function Car(model) {
 	this.model = model;
 	this.startEngine = function () {
-		console.log('Starting engine sound');
+		console.log(`Starting ${this.model} engine sound`);
 	}
 }
 
