@@ -9,12 +9,13 @@ let phones = [
 	{brand: 'Samsung', model: 'Note10'},
 	{brand: 'Nokia', model: 'Lumia'},
 	{brand: 'Oppo', model: 'A5s'},
+	{brand: 'Samsung', model: 'S10'}
 ]
 
-phones.forEach(phone =>
-	console.log(phone)
+let galaxyPhones = phones.filter(phone => phone.brand === 'Samsung'
 );
 
+console.log(galaxyPhones);
 
 phones.forEach((phone, index) =>
 	console.log(phone, index)
