@@ -11,7 +11,11 @@ let phones = [
 	{brand: 'Oppo', model: 'A5s'},
 ]
 
-phones.forEach(function(phone) {
-	console.log(phone);
-})
+phones.forEach(phone =>
+	console.log(phone)
+);
 
+
+phones.forEach((phone, index) =>
+	console.log(phone, index)
+);
