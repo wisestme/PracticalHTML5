@@ -10,11 +10,11 @@ class Phone {
 		this.id = id;
 	}
 
-	identify() {
-		return `The model of this phone is ${this.id}`;
+	identify(type) {
+		return `The model of this phone is ${type} ${this.id}`;
 	}
 }
 
 let samsung = new Phone('Note10');
 
-console.log(samsung.identify());
+console.log(samsung.identify('Galaxy'));
