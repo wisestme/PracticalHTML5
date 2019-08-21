@@ -6,9 +6,11 @@ cartAdd.onclick = function () {
 
 
 class Phone {
-
+	constructor(id) {
+		this.id = id;
+	}
 }
 
-let samsung = new Phone();
+let samsung = new Phone('Note10');
 
-console.log(samsung);
+console.log(samsung.id);
