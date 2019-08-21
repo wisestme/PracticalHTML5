@@ -24,3 +24,7 @@ let phonesJSON = JSON.stringify(phones);
 
 console.log(phonesJSON);
 
+let parsedPhones = JSON.parse(phonesJSON);
+
+console.log(parsedPhones);
+
