@@ -13,3 +13,12 @@ let phone = {
 
 console.log(JSON.stringify(phone));
 
+let phones = [
+	{brand: 'Samsung'},
+	{brand: 'Nokia'},
+	{brand: 'Oppo'},
+	{brand: 'Sony'},
+];
+
+console.log(JSON.stringify(phones));
+
