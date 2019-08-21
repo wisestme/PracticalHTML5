@@ -20,5 +20,7 @@ let phones = [
 	{brand: 'Sony'},
 ];
 
-console.log(JSON.stringify(phones));
+let phonesJSON = JSON.stringify(phones);
+
+console.log(phonesJSON);
 
