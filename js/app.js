@@ -5,5 +5,11 @@ cartAdd.onclick = function () {
 };
 
 
+let phone = {
+	brand: "Samsung",
+	category: 'Note',
+	model: 900,
+}
 
+console.log(JSON.stringify(phone));
 
