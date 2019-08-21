@@ -5,3 +5,10 @@ cartAdd.onclick = function () {
 };
 
 
+class Phone {
+
+}
+
+let samsung = new Phone();
+
+console.log(samsung);
