@@ -5,12 +5,14 @@ cartAdd.onclick = function () {
 };
 
 class Phone {
-constructor(type) {
-	this.type = type;
-	console.log(this);
-}
+	constructor(type) {
+		this.type = type;
+	}
+	model(number) {
+		return `Phone Model: Galaxy ${this.type} ${number}`
+	}
 }
 
 let samsung = new Phone('Note');
 
-console.log(samsung);
+console.log(samsung.model(10));
