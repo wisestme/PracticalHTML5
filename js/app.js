@@ -4,3 +4,8 @@ cartAdd.onclick = function () {
 	alert('item added to your cart');
 };
 
+class Phone {
+
+}
+
+let samsung = new Phone();
