@@ -4,7 +4,7 @@ cartAdd.onclick = function () {
 	alert('item added to your cart');
 };
 
-class Phone {
+class Gadget {
 	constructor(type) {
 		this.type = type;
 	}
@@ -13,6 +13,10 @@ class Phone {
 	}
 }
 
-let samsung = new Phone('Note');
+class Phone extends Gadget {
 
-console.log(samsung.model(10));
+}
+
+let samsung = new Phone('Note10');
+
+console.log(samsung.type);
