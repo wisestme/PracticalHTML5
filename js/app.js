@@ -5,8 +5,14 @@ cartAdd.onclick = function () {
 };
 
 let x = 0;
-let secsCounter = setTimeout(function () {
+let secsCounter = setInterval(function () {
 	
 	x += 1;
 	console.log(`${x} seconds elapsed`);
+
+	if (x === 10) {
+		clearInterval(secsCounter);
+	}
+
 }, 1000)
+
