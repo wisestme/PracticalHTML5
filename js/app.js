@@ -4,6 +4,13 @@ cartAdd.onclick = function () {
 	alert('item added to your cart');
 };
 
-let car = newCar;
+try {
+	let car = newCar;
+}
+
+catch(error) {
+	console.log('error:',error)
+}
+
 
 console.log('continuing...')
