@@ -5,7 +5,7 @@ cartAdd.onclick = function () {
 };
 
 try {
-	let car = newCar;
+	throw new Error('my custom error');
 }
 
 catch(error) {
