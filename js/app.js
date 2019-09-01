@@ -9,8 +9,9 @@ try {
 }
 
 catch(error) {
-	console.log('error:',error)
+	console.log('error:',error);
 }
 
-
-console.log('continuing...')
+finally {
+	console.log('continuing... this block must run');
+}
