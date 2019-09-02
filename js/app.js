@@ -6,7 +6,11 @@ cartAdd.onclick = function () {
 
 let promise = new Promise(
 	function(resolve, reject) {
-		setTimeout(resolve, 100, 'successfully resolved');
+		setTimeout(reject, 100, 'successfully resolved');
 	});
 
-console.log(promise);
+promise.then(
+	value => console.log('fulfilled:' + value),
+	error => console.log('rejected: ' + error)
+	);
+
