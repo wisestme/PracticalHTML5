@@ -4,13 +4,9 @@ cartAdd.onclick = function () {
 	alert('item added to your cart');
 };
 
-let promise = new Promise(
-	function(resolve, reject) {
-		setTimeout(reject, 100, 'successfully resolved');
-	});
+let form = document.getElementById('main-form');
 
-promise.then(
-	value => console.log('fulfilled:' + value),
-	error => console.log('rejected: ' + error)
-	);
+form.addEventListener('submit', event => {
+	event.preventDefault();
+});
 
