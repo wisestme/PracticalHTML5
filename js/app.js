@@ -4,7 +4,7 @@ cartAdd.onclick = function () {
 	alert('item added to your cart');
 };*/
 
-let form = document.getElementById('main-form');
+/*let form = document.getElementById('main-form');
 
 
 
@@ -28,4 +28,4 @@ firstName.style.borderColor = 'red';
 firstName.focus();
 	}
 });
-
+*/
