@@ -18,14 +18,14 @@ form.addEventListener('submit', event => {
 
 	let firstName = form.elements['first-name'];
 	let lastName = form.elements['last-name'];
+	let placeHolder = document.getElementById('first-name').getAttribute('placeholder');
 	let userError = document.getElementById('user-error');
-	console.log(userError.textContent);
-userError.textContent = 'Invalid entry';
+	console.log(userError.textContent, placeHolder);
+	if (firstName.value < 3) {
+		userError.textContent = `Invalid entry ${placeHolder}`;
 userError.style.color = 'red';
 firstName.style.borderColor = 'red';
 firstName.focus();
-
-
-	
+	}
 });
 
