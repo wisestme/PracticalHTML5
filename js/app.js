@@ -5,7 +5,8 @@ cartAdd.onclick = function () {
 };*/
 
 let form = document.getElementById('main-form');
-
+let firstName = form.elements['first-name'];
+let lastName = form.elements['last-name'];
 form.addEventListener('submit', event => {
 	let bows = form.elements['Bows'];
 	let wrapper = form.elements['Wrapper color'];
